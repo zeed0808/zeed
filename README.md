@@ -1,32 +1,32 @@
-# Yazid Biografi 🌟
+# 🌐 Yazid Biografi
 
-Selamat datang di proyek **Yazid Biografi**!  
-Website ini saya buat sebagai media untuk menyimpan dan mempublikasikan perjalanan saya selama berkarya di dunia teknologi dan kreatif.
+**Yazid Biografi** adalah website pribadi yang saya buat untuk mendokumentasikan perjalanan dan karya saya selama berkecimpung di dunia teknologi dan kreativitas. Proyek ini dibangun dengan teknologi modern yang ringan, cepat, dan responsif.
 
-## ✨ Teknologi yang Digunakan
+---
 
-- **HTML** – Sebagai struktur dasar halaman.
-- **Vue.js** – Framework JavaScript progresif untuk membangun antarmuka pengguna.
-- **Tailwind CSS** – Utility-first CSS framework yang memberikan tampilan modern dan responsif dengan cepat.
-- **Vite** – Build tool modern yang cepat dan ringan untuk proyek frontend berbasis Vue.
+## 🚀 Teknologi yang Digunakan
 
-## ⚠️ Penggunaan
+- **HTML** – Dasar dari struktur halaman.
+- **Vue.js** – Framework progresif untuk membangun antarmuka yang dinamis.
+- **Tailwind CSS** – Framework CSS utility-first untuk mempercepat styling dengan tampilan modern.
+- **Vite** – Build tool modern yang mendukung hot reload dan cepat saat development.
 
-Website ini dapat dijadikan referensi atau portofolio pribadi, namun:
+---
 
-- **JANGAN** memperjualbelikan script atau hasil karya dari website ini.
-- Gunakan dengan bijak untuk pembelajaran dan inspirasi.
-- Pelanggaran terhadap ketentuan ini dapat saya tindak sesuai hukum yang berlaku.
+## 📁 Struktur Folder
 
-## 🚫 Nonaktifkan Auto Refresh (HMR)
-
-Jika Anda merasa auto-refresh mengganggu selama pengembangan, Anda dapat mematikan fitur Hot Module Reloading (HMR) dengan mengubah konfigurasi pada `vite.config.js` seperti berikut:
-
-```js
-export default defineConfig({
-  plugins: [],
-  server: {
-    host: '0.0.0.0',
-    hmr: false, // Menonaktifkan auto-refresh
-  }
-})
+"
+├── public/
+│ └── favicon.ico
+├── src/
+│ ├── assets/
+│ │ └── hero/ # Gambar-gambar utama (hero section)
+│ ├── pages/
+│ │ ├── About.vue # Halaman tentang
+│ │ ├── Portfolio.vue # Halaman portofolio
+│ │ └── Contact.vue # Halaman kontak
+│ ├── App.vue
+│ └── main.js
+├── vite.config.js
+├── package.json
+└── README.md
