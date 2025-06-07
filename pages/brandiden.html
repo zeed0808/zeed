@@ -1,0 +1,1069 @@
+<html lang="en"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Brand Identity Services | YanzzDesign</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <script>
+      tailwind.config = {
+          theme: {
+              extend: {
+                  colors: {
+                      primary: '#6366F1',
+                      secondary: '#EC4899',
+                      dark: '#1F2937',
+                      light: '#F9FAFB'
+                  },
+                  fontFamily: {
+                      sans: ['Poppins', 'sans-serif'],
+                      display: ['Montserrat', 'sans-serif']
+                  }
+              }
+          }
+      }
+  </script>
+  <style>
+      @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+      html {
+          scroll-behavior: smooth;
+      }
+
+      body {
+          font-family: 'Poppins', sans-serif;
+      }
+
+      .hero-gradient {
+          background: linear-gradient(135deg, rgba(99, 102, 241, 0.9) 0%, rgba(236, 72, 153, 0.9) 100%);
+      }
+
+      .bg-gradient {
+          background: linear-gradient(135deg, #6366F1 0%, #EC4899 100%);
+      }
+
+      .text-gradient {
+          background: linear-gradient(135deg, #6366F1 0%, #EC4899 100%);
+          -webkit-background-clip: text;
+          background-clip: text;
+          color: transparent;
+      }
+
+      .card-hover {
+          transition: all 0.3s ease;
+      }
+
+      .card-hover:hover {
+          transform: translateY(-10px);
+      }
+
+      .portfolio-item {
+          overflow: hidden;
+      }
+
+      .portfolio-overlay {
+          opacity: 0;
+          transition: all 0.3s ease;
+      }
+
+      .portfolio-item:hover .portfolio-overlay {
+          opacity: 1;
+      }
+
+      .portfolio-item:hover img {
+          transform: scale(1.05);
+      }
+
+      .portfolio-item img {
+          transition: all 0.5s ease;
+      }
+
+      .testimonial-card {
+          transition: all 0.3s ease;
+      }
+
+      .testimonial-card:hover {
+          transform: translateY(-5px);
+      }
+
+      .animate-float {
+          animation: float 6s ease-in-out infinite;
+      }
+
+      @keyframes float {
+          0%, 100% {
+              transform: translateY(0);
+          }
+          50% {
+              transform: translateY(-20px);
+          }
+      }
+
+      .brand-element {
+          transition: all 0.3s ease;
+      }
+
+      .brand-element:hover {
+          transform: scale(1.05);
+      }
+
+      .process-step {
+          position: relative;
+      }
+
+      .process-step::after {
+          content: '';
+          position: absolute;
+          top: 50%;
+          right: -15%;
+          width: 30%;
+          height: 2px;
+          background: #6366F1;
+          transform: translateY(-50%);
+      }
+
+      .process-step:last-child::after {
+          display: none;
+      }
+
+      @media (max-width: 1024px) {
+          .process-step::after {
+              display: none;
+          }
+      }
+  </style>
+<style>*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/* ! tailwindcss v3.4.16 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:Poppins, sans-serif;font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}.container{width:100%}@media (min-width: 640px){.container{max-width:640px}}@media (min-width: 768px){.container{max-width:768px}}@media (min-width: 1024px){.container{max-width:1024px}}@media (min-width: 1280px){.container{max-width:1280px}}@media (min-width: 1536px){.container{max-width:1536px}}.fixed{position:fixed}.absolute{position:absolute}.relative{position:relative}.inset-0{inset:0px}.-bottom-4{bottom:-1rem}.-left-4{left:-1rem}.-right-4{right:-1rem}.-top-4{top:-1rem}.bottom-8{bottom:2rem}.right-8{right:2rem}.z-50{z-index:50}.mx-auto{margin-left:auto;margin-right:auto}.mb-10{margin-bottom:2.5rem}.mb-16{margin-bottom:4rem}.mb-2{margin-bottom:0.5rem}.mb-4{margin-bottom:1rem}.mb-6{margin-bottom:1.5rem}.mb-8{margin-bottom:2rem}.mr-2{margin-right:0.5rem}.mr-3{margin-right:0.75rem}.mr-4{margin-right:1rem}.mt-1{margin-top:0.25rem}.mt-16{margin-top:4rem}.mt-4{margin-top:1rem}.ml-4{margin-left:1rem}.mt-12{margin-top:3rem}.block{display:block}.inline-block{display:inline-block}.flex{display:flex}.grid{display:grid}.hidden{display:none}.h-16{height:4rem}.h-24{height:6rem}.h-32{height:8rem}.h-64{height:16rem}.h-10{height:2.5rem}.h-12{height:3rem}.h-full{height:100%}.w-16{width:4rem}.w-24{width:6rem}.w-32{width:8rem}.w-64{width:16rem}.w-full{width:100%}.w-10{width:2.5rem}.w-12{width:3rem}.max-w-3xl{max-width:48rem}.transform{transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.grid-cols-1{grid-template-columns:repeat(1, minmax(0, 1fr))}.grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.flex-col{flex-direction:column}.items-start{align-items:flex-start}.items-center{align-items:center}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.gap-12{gap:3rem}.gap-6{gap:1.5rem}.gap-8{gap:2rem}.space-x-8 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(2rem * var(--tw-space-x-reverse));margin-left:calc(2rem * calc(1 - var(--tw-space-x-reverse)))}.space-y-2 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.5rem * var(--tw-space-y-reverse))}.space-y-4 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1rem * var(--tw-space-y-reverse))}.space-x-4 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(1rem * var(--tw-space-x-reverse));margin-left:calc(1rem * calc(1 - var(--tw-space-x-reverse)))}.space-x-6 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(1.5rem * var(--tw-space-x-reverse));margin-left:calc(1.5rem * calc(1 - var(--tw-space-x-reverse)))}.space-y-6 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1.5rem * var(--tw-space-y-reverse))}.overflow-hidden{overflow:hidden}.rounded-full{border-radius:9999px}.rounded-xl{border-radius:0.75rem}.rounded-lg{border-radius:0.5rem}.rounded-b-lg{border-bottom-right-radius:0.5rem;border-bottom-left-radius:0.5rem}.border-2{border-width:2px}.border{border-width:1px}.border-t{border-top-width:1px}.border-white{--tw-border-opacity:1;border-color:rgb(255 255 255 / var(--tw-border-opacity, 1))}.border-gray-300{--tw-border-opacity:1;border-color:rgb(209 213 219 / var(--tw-border-opacity, 1))}.border-gray-800{--tw-border-opacity:1;border-color:rgb(31 41 55 / var(--tw-border-opacity, 1))}.border-primary{--tw-border-opacity:1;border-color:rgb(99 102 241 / var(--tw-border-opacity, 1))}.bg-gray-50{--tw-bg-opacity:1;background-color:rgb(249 250 251 / var(--tw-bg-opacity, 1))}.bg-primary{--tw-bg-opacity:1;background-color:rgb(99 102 241 / var(--tw-bg-opacity, 1))}.bg-secondary{--tw-bg-opacity:1;background-color:rgb(236 72 153 / var(--tw-bg-opacity, 1))}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity, 1))}.bg-dark{--tw-bg-opacity:1;background-color:rgb(31 41 55 / var(--tw-bg-opacity, 1))}.bg-gray-100{--tw-bg-opacity:1;background-color:rgb(243 244 246 / var(--tw-bg-opacity, 1))}.bg-gray-800{--tw-bg-opacity:1;background-color:rgb(31 41 55 / var(--tw-bg-opacity, 1))}.bg-opacity-10{--tw-bg-opacity:0.1}.bg-opacity-20{--tw-bg-opacity:0.2}.bg-opacity-90{--tw-bg-opacity:0.9}.p-6{padding:1.5rem}.p-8{padding:2rem}.p-4{padding:1rem}.px-4{padding-left:1rem;padding-right:1rem}.px-8{padding-left:2rem;padding-right:2rem}.py-20{padding-top:5rem;padding-bottom:5rem}.py-3{padding-top:0.75rem;padding-bottom:0.75rem}.px-6{padding-left:1.5rem;padding-right:1.5rem}.py-12{padding-top:3rem;padding-bottom:3rem}.py-2{padding-top:0.5rem;padding-bottom:0.5rem}.pb-20{padding-bottom:5rem}.pb-4{padding-bottom:1rem}.pt-24{padding-top:6rem}.pb-6{padding-bottom:1.5rem}.pt-4{padding-top:1rem}.pt-8{padding-top:2rem}.text-center{text-align:center}.font-display{font-family:Montserrat, sans-serif}.text-2xl{font-size:1.5rem;line-height:2rem}.text-3xl{font-size:1.875rem;line-height:2.25rem}.text-4xl{font-size:2.25rem;line-height:2.5rem}.text-8xl{font-size:6rem;line-height:1}.text-sm{font-size:0.875rem;line-height:1.25rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-lg{font-size:1.125rem;line-height:1.75rem}.font-bold{font-weight:700}.font-semibold{font-weight:600}.font-medium{font-weight:500}.italic{font-style:italic}.leading-tight{line-height:1.25}.text-dark{--tw-text-opacity:1;color:rgb(31 41 55 / var(--tw-text-opacity, 1))}.text-gray-600{--tw-text-opacity:1;color:rgb(75 85 99 / var(--tw-text-opacity, 1))}.text-green-500{--tw-text-opacity:1;color:rgb(34 197 94 / var(--tw-text-opacity, 1))}.text-primary{--tw-text-opacity:1;color:rgb(99 102 241 / var(--tw-text-opacity, 1))}.text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.text-gray-400{--tw-text-opacity:1;color:rgb(156 163 175 / var(--tw-text-opacity, 1))}.text-gray-500{--tw-text-opacity:1;color:rgb(107 114 128 / var(--tw-text-opacity, 1))}.text-gray-700{--tw-text-opacity:1;color:rgb(55 65 81 / var(--tw-text-opacity, 1))}.text-yellow-400{--tw-text-opacity:1;color:rgb(250 204 21 / var(--tw-text-opacity, 1))}.text-opacity-90{--tw-text-opacity:0.9}.opacity-20{opacity:0.2}.opacity-90{opacity:0.9}.shadow-lg{--tw-shadow:0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-md{--tw-shadow:0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-xl{--tw-shadow:0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.transition-all{transition-property:all;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.transition-colors{transition-property:color, background-color, border-color, fill, stroke, -webkit-text-decoration-color;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.hover\:-translate-y-1:hover{--tw-translate-y:-0.25rem;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.hover\:bg-white:hover{--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity, 1))}.hover\:bg-primary:hover{--tw-bg-opacity:1;background-color:rgb(99 102 241 / var(--tw-bg-opacity, 1))}.hover\:bg-secondary:hover{--tw-bg-opacity:1;background-color:rgb(236 72 153 / var(--tw-bg-opacity, 1))}.hover\:text-primary:hover{--tw-text-opacity:1;color:rgb(99 102 241 / var(--tw-text-opacity, 1))}.hover\:text-white:hover{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.hover\:shadow-xl:hover{--tw-shadow:0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.hover\:shadow-lg:hover{--tw-shadow:0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.focus\:border-transparent:focus{border-color:transparent}.focus\:outline-none:focus{outline:2px solid transparent;outline-offset:2px}.focus\:ring-2:focus{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000)}.focus\:ring-primary:focus{--tw-ring-opacity:1;--tw-ring-color:rgb(99 102 241 / var(--tw-ring-opacity, 1))}@media (min-width: 640px){.sm\:flex-row{flex-direction:row}.sm\:space-x-4 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(1rem * var(--tw-space-x-reverse));margin-left:calc(1rem * calc(1 - var(--tw-space-x-reverse)))}.sm\:space-y-0 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0px * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0px * var(--tw-space-y-reverse))}}@media (min-width: 768px){.md\:mb-0{margin-bottom:0px}.md\:flex{display:flex}.md\:hidden{display:none}.md\:h-80{height:20rem}.md\:w-1\/2{width:50%}.md\:w-80{width:20rem}.md\:grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.md\:grid-cols-3{grid-template-columns:repeat(3, minmax(0, 1fr))}.md\:flex-row{flex-direction:row}.md\:pb-28{padding-bottom:7rem}.md\:pt-32{padding-top:8rem}.md\:text-4xl{font-size:2.25rem;line-height:2.5rem}.md\:text-5xl{font-size:3rem;line-height:1}}@media (min-width: 1024px){.lg\:grid-cols-4{grid-template-columns:repeat(4, minmax(0, 1fr))}.lg\:grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.lg\:grid-cols-3{grid-template-columns:repeat(3, minmax(0, 1fr))}.lg\:text-6xl{font-size:3.75rem;line-height:1}}</style></head>
+<body class="bg-gray-50">
+  <!-- Navigation -->
+  <nav class="bg-white shadow-md fixed w-full z-50">
+      <div class="container mx-auto px-4 py-3">
+          <div class="flex justify-between items-center">
+              <a href="#" class="flex items-center">
+                  <span class="text-2xl font-bold font-display text-dark">Yanzz<span class="text-primary">Design</span></span>
+              </a>
+
+              <div class="hidden md:flex space-x-8">
+                  <a href="#" class="text-gray-600 hover:text-primary transition-colors">Home</a>
+                  <a href="#about" class="text-gray-600 hover:text-primary transition-colors">About</a>
+                  <a href="#services" class="text-gray-600 hover:text-primary transition-colors">Services</a>
+                  <a href="#portfolio" class="text-gray-600 hover:text-primary transition-colors">Portfolio</a>
+                  <a href="#testimonials" class="text-gray-600 hover:text-primary transition-colors">Testimonials</a>
+                  <a href="#contact" class="text-gray-600 hover:text-primary transition-colors">Contact</a>
+              </div>
+
+              <button class="md:hidden text-gray-600 focus:outline-none" id="menu-toggle">
+                  <i class="fas fa-bars text-2xl"></i>
+              </button>
+          </div>
+
+          <!-- Mobile Menu -->
+          <div class="md:hidden hidden" id="mobile-menu">
+              <div class="flex flex-col space-y-4 mt-4 pb-4">
+                  <a href="#" class="text-gray-600 hover:text-primary transition-colors">Home</a>
+                  <a href="#about" class="text-gray-600 hover:text-primary transition-colors">About</a>
+                  <a href="#services" class="text-gray-600 hover:text-primary transition-colors">Services</a>
+                  <a href="#portfolio" class="text-gray-600 hover:text-primary transition-colors">Portfolio</a>
+                  <a href="#testimonials" class="text-gray-600 hover:text-primary transition-colors">Testimonials</a>
+                  <a href="#contact" class="text-gray-600 hover:text-primary transition-colors">Contact</a>
+              </div>
+          </div>
+      </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero-gradient pt-24 pb-20 md:pt-32 md:pb-28">
+      <div class="container mx-auto px-4">
+          <div class="flex flex-col md:flex-row items-center">
+              <div class="md:w-1/2 mb-10 md:mb-0">
+                  <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold font-display text-white leading-tight mb-6">
+                      Build a Powerful <br>Brand Identity
+                  </h1>
+                  <p class="text-xl text-white opacity-90 mb-8">
+                      Create a cohesive visual language that tells your brand story and connects with your audience on a deeper level.
+                  </p>
+                  <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
+                      <a href="#contact" class="bg-white text-primary font-semibold py-3 px-8 rounded-full shadow-lg hover:shadow-xl transition-all transform hover:-translate-y-1">
+                          Get Started
+                      </a>
+                      <a href="#portfolio" class="border-2 border-white text-white font-semibold py-3 px-8 rounded-full hover:bg-white hover:text-primary transition-all">
+                          View Portfolio
+                      </a>
+                  </div>
+              </div>
+              <div class="md:w-1/2 flex justify-center">
+                  <div class="relative">
+                      <div class="w-64 h-64 md:w-80 md:h-80 bg-white rounded-full shadow-xl flex items-center justify-center animate-float">
+                          <i class="fas fa-layer-group text-8xl text-gradient"></i>
+                      </div>
+                      <div class="absolute -bottom-4 -right-4 w-32 h-32 bg-secondary rounded-full opacity-20"></div>
+                      <div class="absolute -top-4 -left-4 w-24 h-24 bg-primary rounded-full opacity-20"></div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+
+  <!-- About Brand Identity Section -->
+  <section id="about" class="py-20 bg-white">
+      <div class="container mx-auto px-4">
+          <div class="text-center mb-16">
+              <h2 class="text-3xl md:text-4xl font-bold font-display mb-4">What is <span class="text-gradient">Brand Identity?</span></h2>
+              <p class="text-gray-600 max-w-3xl mx-auto">Brand identity is the collection of all visual elements that represent your business. It's how your audience perceives you and what sets you apart from competitors.</p>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+              <div>
+                  <h3 class="text-2xl font-bold mb-6">Building Trust Through Consistent Brand Identity</h3>
+                  <p class="text-gray-600 mb-6">A strong brand identity builds trust with your audience by creating a consistent, professional, and memorable experience across all touchpoints. When customers recognize your brand instantly, they're more likely to choose you over competitors.</p>
+
+                  <div class="space-y-4">
+                      <div class="flex items-start">
+                          <div class="mt-1 mr-4 text-primary">
+                              <i class="fas fa-check-circle text-xl"></i>
+                          </div>
+                          <div>
+                              <h4 class="font-bold">Recognition &amp; Recall</h4>
+                              <p class="text-gray-600">A cohesive brand identity makes your business instantly recognizable in a crowded marketplace.</p>
+                          </div>
+                      </div>
+
+                      <div class="flex items-start">
+                          <div class="mt-1 mr-4 text-primary">
+                              <i class="fas fa-check-circle text-xl"></i>
+                          </div>
+                          <div>
+                              <h4 class="font-bold">Emotional Connection</h4>
+                              <p class="text-gray-600">Strategic brand elements evoke specific emotions and create meaningful connections with your audience.</p>
+                          </div>
+                      </div>
+
+                      <div class="flex items-start">
+                          <div class="mt-1 mr-4 text-primary">
+                              <i class="fas fa-check-circle text-xl"></i>
+                          </div>
+                          <div>
+                              <h4 class="font-bold">Perceived Value</h4>
+                              <p class="text-gray-600">Professional branding elevates how customers perceive your products or services, allowing for premium positioning.</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="grid grid-cols-2 gap-6">
+                  <div class="bg-gray-50 p-6 rounded-xl shadow-md brand-element">
+                      <div class="w-16 h-16 bg-primary bg-opacity-10 rounded-full flex items-center justify-center mb-4">
+                          <i class="fas fa-paint-brush text-2xl text-primary"></i>
+                      </div>
+                      <h4 class="font-bold mb-2">Consistency</h4>
+                      <p class="text-gray-600 text-sm">Unified look and feel across all platforms and materials</p>
+                  </div>
+
+                  <div class="bg-gray-50 p-6 rounded-xl shadow-md brand-element">
+                      <div class="w-16 h-16 bg-primary bg-opacity-10 rounded-full flex items-center justify-center mb-4">
+                          <i class="fas fa-bullseye text-2xl text-primary"></i>
+                      </div>
+                      <h4 class="font-bold mb-2">Differentiation</h4>
+                      <p class="text-gray-600 text-sm">Stand out from competitors with unique visual elements</p>
+                  </div>
+
+                  <div class="bg-gray-50 p-6 rounded-xl shadow-md brand-element">
+                      <div class="w-16 h-16 bg-primary bg-opacity-10 rounded-full flex items-center justify-center mb-4">
+                          <i class="fas fa-handshake text-2xl text-primary"></i>
+                      </div>
+                      <h4 class="font-bold mb-2">Trust</h4>
+                      <p class="text-gray-600 text-sm">Professional branding builds credibility with customers</p>
+                  </div>
+
+                  <div class="bg-gray-50 p-6 rounded-xl shadow-md brand-element">
+                      <div class="w-16 h-16 bg-primary bg-opacity-10 rounded-full flex items-center justify-center mb-4">
+                          <i class="fas fa-heart text-2xl text-primary"></i>
+                      </div>
+                      <h4 class="font-bold mb-2">Loyalty</h4>
+                      <p class="text-gray-600 text-sm">Strong brands create emotional connections that foster loyalty</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+
+  <!-- What You Get Section -->
+  <section id="services" class="py-20 bg-gray-50">
+      <div class="container mx-auto px-4">
+          <div class="text-center mb-16">
+              <h2 class="text-3xl md:text-4xl font-bold font-display mb-4">What You <span class="text-gradient">Get</span></h2>
+              <p class="text-gray-600 max-w-3xl mx-auto">Our comprehensive brand identity package includes everything you need to establish a strong, cohesive visual presence across all platforms.</p>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+              <!-- Logo Design -->
+              <div class="bg-white rounded-xl shadow-lg p-8 card-hover">
+                  <div class="w-16 h-16 bg-primary bg-opacity-10 rounded-full flex items-center justify-center mb-6">
+                      <i class="fas fa-fingerprint text-2xl text-primary"></i>
+                  </div>
+                  <h3 class="text-xl font-bold mb-4">Logo Design</h3>
+                  <p class="text-gray-600">A distinctive, versatile logo that captures your brand essence and works across all applications.</p>
+                  <ul class="mt-4 space-y-2 text-gray-600">
+                      <li class="flex items-center">
+                          <i class="fas fa-check text-green-500 mr-2"></i>
+                          <span>Primary logo</span>
+                      </li>
+                      <li class="flex items-center">
+                          <i class="fas fa-check text-green-500 mr-2"></i>
+                          <span>Secondary logo variations</span>
+                      </li>
+                      <li class="flex items-center">
+                          <i class="fas fa-check text-green-500 mr-2"></i>
+                          <span>Icon/mark for small applications</span>
+                      </li>
+                  </ul>
+              </div>
+
+              <!-- Color Palette -->
+              <div class="bg-white rounded-xl shadow-lg p-8 card-hover">
+                  <div class="w-16 h-16 bg-primary bg-opacity-10 rounded-full flex items-center justify-center mb-6">
+                      <i class="fas fa-palette text-2xl text-primary"></i>
+                  </div>
+                  <h3 class="text-xl font-bold mb-4">Color Palette</h3>
+                  <p class="text-gray-600">A strategic color system that evokes the right emotions and ensures consistency across all materials.</p>
+                  <ul class="mt-4 space-y-2 text-gray-600">
+                      <li class="flex items-center">
+                          <i class="fas fa-check text-green-500 mr-2"></i>
+                          <span>Primary brand colors</span>
+                      </li>
+                      <li class="flex items-center">
+                          <i class="fas fa-check text-green-500 mr-2"></i>
+                          <span>Secondary accent colors</span>
+                      </li>
+                      <li class="flex items-center">
+                          <i class="fas fa-check text-green-500 mr-2"></i>
+                          <span>Color codes (CMYK, RGB, HEX)</span>
+                      </li>
+                  </ul>
+              </div>
+
+              <!-- Typography -->
+              <div class="bg-white rounded-xl shadow-lg p-8 card-hover">
+                  <div class="w-16 h-16 bg-primary bg-opacity-10 rounded-full flex items-center justify-center mb-6">
+                      <i class="fas fa-font text-2xl text-primary"></i>
+                  </div>
+                  <h3 class="text-xl font-bold mb-4">Typography</h3>
+                  <p class="text-gray-600">Carefully selected fonts that reflect your brand personality and ensure readability across all media.</p>
+                  <ul class="mt-4 space-y-2 text-gray-600">
+                      <li class="flex items-center">
+                          <i class="fas fa-check text-green-500 mr-2"></i>
+                          <span>Primary font selection</span>
+                      </li>
+                      <li class="flex items-center">
+                          <i class="fas fa-check text-green-500 mr-2"></i>
+                          <span>Secondary/supporting fonts</span>
+                      </li>
+                      <li class="flex items-center">
+                          <i class="fas fa-check text-green-500 mr-2"></i>
+                          <span>Web-safe alternatives</span>
+                      </li>
+                  </ul>
+              </div>
+
+              <!-- Brand Guidelines -->
+              <div class="bg-white rounded-xl shadow-lg p-8 card-hover">
+                  <div class="w-16 h-16 bg-primary bg-opacity-10 rounded-full flex items-center justify-center mb-6">
+                      <i class="fas fa-book text-2xl text-primary"></i>
+                  </div>
+                  <h3 class="text-xl font-bold mb-4">Brand Guidelines</h3>
+                  <p class="text-gray-600">A comprehensive guide that ensures consistent application of your brand across all touchpoints.</p>
+                  <ul class="mt-4 space-y-2 text-gray-600">
+                      <li class="flex items-center">
+                          <i class="fas fa-check text-green-500 mr-2"></i>
+                          <span>Logo usage rules</span>
+                      </li>
+                      <li class="flex items-center">
+                          <i class="fas fa-check text-green-500 mr-2"></i>
+                          <span>Color application guidelines</span>
+                      </li>
+                      <li class="flex items-center">
+                          <i class="fas fa-check text-green-500 mr-2"></i>
+                          <span>Typography hierarchy</span>
+                      </li>
+                      <li class="flex items-center">
+                          <i class="fas fa-check text-green-500 mr-2"></i>
+                          <span>Brand voice &amp; tone</span>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+
+          <div class="mt-16 grid grid-cols-1 md:grid-cols-2 gap-8">
+              <!-- Additional Elements -->
+              <div class="bg-white rounded-xl shadow-lg p-8">
+                  <h3 class="text-xl font-bold mb-6 flex items-center">
+                      <i class="fas fa-plus-circle text-primary mr-3"></i>
+                      Additional Brand Elements
+                  </h3>
+                  <div class="grid grid-cols-2 gap-6">
+                      <div class="flex items-start">
+                          <i class="fas fa-image text-primary mt-1 mr-3"></i>
+                          <div>
+                              <h4 class="font-bold">Imagery Style</h4>
+                              <p class="text-gray-600 text-sm">Guidelines for photography, illustration, and graphic styles</p>
+                          </div>
+                      </div>
+
+                      <div class="flex items-start">
+                          <i class="fas fa-shapes text-primary mt-1 mr-3"></i>
+                          <div>
+                              <h4 class="font-bold">Graphic Elements</h4>
+                              <p class="text-gray-600 text-sm">Custom patterns, icons, and decorative elements</p>
+                          </div>
+                      </div>
+
+                      <div class="flex items-start">
+                          <i class="fas fa-id-card text-primary mt-1 mr-3"></i>
+                          <div>
+                              <h4 class="font-bold">Business Cards</h4>
+                              <p class="text-gray-600 text-sm">Professional card designs that make a lasting impression</p>
+                          </div>
+                      </div>
+
+                      <div class="flex items-start">
+                          <i class="fas fa-envelope text-primary mt-1 mr-3"></i>
+                          <div>
+                              <h4 class="font-bold">Stationery</h4>
+                              <p class="text-gray-600 text-sm">Letterheads, envelopes, and other business materials</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+
+              <!-- Digital Assets -->
+              <div class="bg-white rounded-xl shadow-lg p-8">
+                  <h3 class="text-xl font-bold mb-6 flex items-center">
+                      <i class="fas fa-laptop text-primary mr-3"></i>
+                      Digital Brand Assets
+                  </h3>
+                  <div class="grid grid-cols-2 gap-6">
+                      <div class="flex items-start">
+                          <i class="fas fa-globe text-primary mt-1 mr-3"></i>
+                          <div>
+                              <h4 class="font-bold">Website Elements</h4>
+                              <p class="text-gray-600 text-sm">UI components and design elements for your website</p>
+                          </div>
+                      </div>
+
+                      <div class="flex items-start">
+                          <i class="fas fa-hashtag text-primary mt-1 mr-3"></i>
+                          <div>
+                              <h4 class="font-bold">Social Media</h4>
+                              <p class="text-gray-600 text-sm">Profile images, cover photos, and post templates</p>
+                          </div>
+                      </div>
+
+                      <div class="flex items-start">
+                          <i class="fas fa-envelope-open text-primary mt-1 mr-3"></i>
+                          <div>
+                              <h4 class="font-bold">Email Signatures</h4>
+                              <p class="text-gray-600 text-sm">Professional email signatures for your team</p>
+                          </div>
+                      </div>
+
+                      <div class="flex items-start">
+                          <i class="fas fa-mobile-alt text-primary mt-1 mr-3"></i>
+                          <div>
+                              <h4 class="font-bold">Digital Ads</h4>
+                              <p class="text-gray-600 text-sm">Templates for online advertising campaigns</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+
+  <!-- Why Choose Us Section -->
+  <section class="py-20 bg-white">
+      <div class="container mx-auto px-4">
+          <div class="text-center mb-16">
+              <h2 class="text-3xl md:text-4xl font-bold font-display mb-4">Why Choose <span class="text-gradient">YanzzDesign</span></h2>
+              <p class="text-gray-600 max-w-3xl mx-auto">We combine strategic thinking with creative excellence to deliver brand identities that make a lasting impact.</p>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+              <!-- Reason 1 -->
+              <div class="bg-gray-50 rounded-xl shadow-lg p-8 card-hover">
+                  <div class="w-16 h-16 bg-gradient rounded-full flex items-center justify-center text-white mb-6">
+                      <i class="fas fa-lightbulb text-2xl"></i>
+                  </div>
+                  <h3 class="text-xl font-bold mb-4">Strategic Approach</h3>
+                  <p class="text-gray-600">We don't just create pretty designs. We develop brand identities based on research, strategy, and your business goals.</p>
+                  <ul class="mt-4 space-y-2 text-gray-600">
+                      <li class="flex items-center">
+                          <i class="fas fa-check text-green-500 mr-2"></i>
+                          <span>In-depth brand discovery</span>
+                      </li>
+                      <li class="flex items-center">
+                          <i class="fas fa-check text-green-500 mr-2"></i>
+                          <span>Competitor analysis</span>
+                      </li>
+                      <li class="flex items-center">
+                          <i class="fas fa-check text-green-500 mr-2"></i>
+                          <span>Target audience research</span>
+                      </li>
+                  </ul>
+              </div>
+
+              <!-- Reason 2 -->
+              <div class="bg-gray-50 rounded-xl shadow-lg p-8 card-hover">
+                  <div class="w-16 h-16 bg-gradient rounded-full flex items-center justify-center text-white mb-6">
+                      <i class="fas fa-layer-group text-2xl"></i>
+                  </div>
+                  <h3 class="text-xl font-bold mb-4">Experienced Team</h3>
+                  <p class="text-gray-600">Our team of designers and brand strategists brings years of experience across diverse industries and brand challenges.</p>
+                  <ul class="mt-4 space-y-2 text-gray-600">
+                      <li class="flex items-center">
+                          <i class="fas fa-check text-green-500 mr-2"></i>
+                          <span>10+ years industry experience</span>
+                      </li>
+                      <li class="flex items-center">
+                          <i class="fas fa-check text-green-500 mr-2"></i>
+                          <span>Award-winning designers</span>
+                      </li>
+                      <li class="flex items-center">
+                          <i class="fas fa-check text-green-500 mr-2"></i>
+                          <span>Diverse industry expertise</span>
+                      </li>
+                  </ul>
+              </div>
+
+              <!-- Reason 3 -->
+              <div class="bg-gray-50 rounded-xl shadow-lg p-8 card-hover">
+                  <div class="w-16 h-16 bg-gradient rounded-full flex items-center justify-center text-white mb-6">
+                      <i class="fas fa-handshake text-2xl"></i>
+                  </div>
+                  <h3 class="text-xl font-bold mb-4">Collaborative Process</h3>
+                  <p class="text-gray-600">We believe in partnership. Your insights and feedback are essential to creating a brand identity that truly represents your vision.</p>
+                  <ul class="mt-4 space-y-2 text-gray-600">
+                      <li class="flex items-center">
+                          <i class="fas fa-check text-green-500 mr-2"></i>
+                          <span>Transparent communication</span>
+                      </li>
+                      <li class="flex items-center">
+                          <i class="fas fa-check text-green-500 mr-2"></i>
+                          <span>Regular progress updates</span>
+                      </li>
+                      <li class="flex items-center">
+                          <i class="fas fa-check text-green-500 mr-2"></i>
+                          <span>Dedicated project manager</span>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+  </section>
+
+  <!-- Process Section -->
+  <section class="py-20 bg-gray-50">
+      <div class="container mx-auto px-4">
+          <div class="text-center mb-16">
+              <h2 class="text-3xl md:text-4xl font-bold font-display mb-4">Our Brand Identity <span class="text-gradient">Process</span></h2>
+              <p class="text-gray-600 max-w-3xl mx-auto">We follow a proven methodology to create brand identities that are strategic, memorable, and effective.</p>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+              <!-- Step 1 -->
+              <div class="process-step">
+                  <div class="bg-white rounded-xl shadow-lg p-8 h-full card-hover">
+                      <div class="w-12 h-12 bg-gradient rounded-full flex items-center justify-center text-white font-bold text-xl mb-6">1</div>
+                      <h3 class="text-xl font-bold mb-4">Discovery</h3>
+                      <p class="text-gray-600">We start by understanding your business, values, goals, target audience, and competitive landscape through in-depth research.</p>
+                  </div>
+              </div>
+
+              <!-- Step 2 -->
+              <div class="process-step">
+                  <div class="bg-white rounded-xl shadow-lg p-8 h-full card-hover">
+                      <div class="w-12 h-12 bg-gradient rounded-full flex items-center justify-center text-white font-bold text-xl mb-6">2</div>
+                      <h3 class="text-xl font-bold mb-4">Strategy</h3>
+                      <p class="text-gray-600">We develop a brand strategy that defines your positioning, personality, voice, and the key messages that will resonate with your audience.</p>
+                  </div>
+              </div>
+
+              <!-- Step 3 -->
+              <div class="process-step">
+                  <div class="bg-white rounded-xl shadow-lg p-8 h-full card-hover">
+                      <div class="w-12 h-12 bg-gradient rounded-full flex items-center justify-center text-white font-bold text-xl mb-6">3</div>
+                      <h3 class="text-xl font-bold mb-4">Design</h3>
+                      <p class="text-gray-600">We create visual elements that bring your brand to life, including logo concepts, color palettes, typography, and supporting graphics.</p>
+                  </div>
+              </div>
+
+              <!-- Step 4 -->
+              <div class="process-step">
+                  <div class="bg-white rounded-xl shadow-lg p-8 h-full card-hover">
+                      <div class="w-12 h-12 bg-gradient rounded-full flex items-center justify-center text-white font-bold text-xl mb-6">4</div>
+                      <h3 class="text-xl font-bold mb-4">Implementation</h3>
+                      <p class="text-gray-600">We finalize all brand elements, create comprehensive guidelines, and deliver the assets you need to implement your new identity.</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio" class="py-20 bg-white">
+      <div class="container mx-auto px-4">
+          <div class="text-center mb-16">
+              <h2 class="text-3xl md:text-4xl font-bold font-display mb-4">Brand Identity <span class="text-gradient">Portfolio</span></h2>
+              <p class="text-gray-600 max-w-3xl mx-auto">Explore some of our recent brand identity projects and see how we've helped businesses establish a strong visual presence.</p>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              <!-- Portfolio Item 1 -->
+              <div class="portfolio-item rounded-xl overflow-hidden shadow-lg relative">
+                  <div class="bg-gray-100 h-64 flex items-center justify-center p-8">
+                      <svg class="w-full h-full" viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="50" cy="50" r="30" fill="#6366F1"></circle>
+                          <text x="100" y="60" font-family="Arial" font-weight="bold" font-size="24" text-anchor="middle" fill="#1F2937">NOVA</text>
+                      </svg>
+                  </div>
+                  <div class="portfolio-overlay absolute inset-0 bg-gradient bg-opacity-90 flex items-center justify-center">
+                      <div class="text-center p-4">
+                          <h3 class="text-xl font-bold text-white mb-2">Nova Tech</h3>
+                          <p class="text-white text-sm mb-4">Technology Company</p>
+                          <a href="#" class="inline-block bg-white text-primary font-medium py-2 px-4 rounded-full">View Case Study</a>
+                      </div>
+                  </div>
+              </div>
+
+              <!-- Portfolio Item 2 -->
+              <div class="portfolio-item rounded-xl overflow-hidden shadow-lg relative">
+                  <div class="bg-gray-100 h-64 flex items-center justify-center p-8">
+                      <svg class="w-full h-full" viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M50,20 L80,80 L20,80 Z" fill="#EC4899"></path>
+                          <text x="120" y="60" font-family="Arial" font-weight="bold" font-size="24" text-anchor="middle" fill="#1F2937">PEAK</text>
+                      </svg>
+                  </div>
+                  <div class="portfolio-overlay absolute inset-0 bg-gradient bg-opacity-90 flex items-center justify-center">
+                      <div class="text-center p-4">
+                          <h3 class="text-xl font-bold text-white mb-2">Peak Fitness</h3>
+                          <p class="text-white text-sm mb-4">Fitness Brand</p>
+                          <a href="#" class="inline-block bg-white text-primary font-medium py-2 px-4 rounded-full">View Case Study</a>
+                      </div>
+                  </div>
+              </div>
+
+              <!-- Portfolio Item 3 -->
+              <div class="portfolio-item rounded-xl overflow-hidden shadow-lg relative">
+                  <div class="bg-gray-100 h-64 flex items-center justify-center p-8">
+                      <svg class="w-full h-full" viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="50" cy="50" r="30" fill="none" stroke="#6366F1" stroke-width="4"></circle>
+                          <text x="120" y="60" font-family="Arial" font-weight="bold" font-size="24" text-anchor="middle" fill="#1F2937">BLOOM</text>
+                      </svg>
+                  </div>
+                  <div class="portfolio-overlay absolute inset-0 bg-gradient bg-opacity-90 flex items-center justify-center">
+                      <div class="text-center p-4">
+                          <h3 class="text-xl font-bold text-white mb-2">Bloom Beauty</h3>
+                          <p class="text-white text-sm mb-4">Cosmetics Brand</p>
+                          <a href="#" class="inline-block bg-white text-primary font-medium py-2 px-4 rounded-full">View Case Study</a>
+                      </div>
+                  </div>
+              </div>
+
+              <!-- Portfolio Item 4 -->
+              <div class="portfolio-item rounded-xl overflow-hidden shadow-lg relative">
+                  <div class="bg-gray-100 h-64 flex items-center justify-center p-8">
+                      <svg class="w-full h-full" viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg">
+                          <rect x="20" y="20" width="60" height="60" rx="10" fill="#EC4899"></rect>
+                          <text x="120" y="60" font-family="Arial" font-weight="bold" font-size="24" text-anchor="middle" fill="#1F2937">CUBE</text>
+                      </svg>
+                  </div>
+                  <div class="portfolio-overlay absolute inset-0 bg-gradient bg-opacity-90 flex items-center justify-center">
+                      <div class="text-center p-4">
+                          <h3 class="text-xl font-bold text-white mb-2">Cube Finance</h3>
+                          <p class="text-white text-sm mb-4">Financial Services</p>
+                          <a href="#" class="inline-block bg-white text-primary font-medium py-2 px-4 rounded-full">View Case Study</a>
+                      </div>
+                  </div>
+              </div>
+
+              <!-- Portfolio Item 5 -->
+              <div class="portfolio-item rounded-xl overflow-hidden shadow-lg relative">
+                  <div class="bg-gray-100 h-64 flex items-center justify-center p-8">
+                      <svg class="w-full h-full" viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M20,50 Q50,20 80,50 Q50,80 20,50 Z" fill="#6366F1"></path>
+                          <text x="120" y="60" font-family="Arial" font-weight="bold" font-size="24" text-anchor="middle" fill="#1F2937">WAVE</text>
+                      </svg>
+                  </div>
+                  <div class="portfolio-overlay absolute inset-0 bg-gradient bg-opacity-90 flex items-center justify-center">
+                      <div class="text-center p-4">
+                          <h3 class="text-xl font-bold text-white mb-2">Wave Media</h3>
+                          <p class="text-white text-sm mb-4">Digital Marketing Agency</p>
+                          <a href="#" class="inline-block bg-white text-primary font-medium py-2 px-4 rounded-full">View Case Study</a>
+                      </div>
+                  </div>
+              </div>
+
+              <!-- Portfolio Item 6 -->
+              <div class="portfolio-item rounded-xl overflow-hidden shadow-lg relative">
+                  <div class="bg-gray-100 h-64 flex items-center justify-center p-8">
+                      <svg class="w-full h-full" viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="50" cy="50" r="20" fill="#EC4899"></circle>
+                          <circle cx="50" cy="50" r="30" fill="none" stroke="#EC4899" stroke-width="2"></circle>
+                          <text x="120" y="60" font-family="Arial" font-weight="bold" font-size="24" text-anchor="middle" fill="#1F2937">ORBIT</text>
+                      </svg>
+                  </div>
+                  <div class="portfolio-overlay absolute inset-0 bg-gradient bg-opacity-90 flex items-center justify-center">
+                      <div class="text-center p-4">
+                          <h3 class="text-xl font-bold text-white mb-2">Orbit Coffee</h3>
+                          <p class="text-white text-sm mb-4">Coffee Shop Chain</p>
+                          <a href="#" class="inline-block bg-white text-primary font-medium py-2 px-4 rounded-full">View Case Study</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+          <div class="mt-12 text-center">
+              <a href="#" class="border-2 border-primary text-primary font-semibold py-3 px-8 rounded-full hover:bg-primary hover:text-white transition-all">
+                  View All Projects
+              </a>
+          </div>
+      </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section id="testimonials" class="py-20 bg-gray-50">
+      <div class="container mx-auto px-4">
+          <div class="text-center mb-16">
+              <h2 class="text-3xl md:text-4xl font-bold font-display mb-4">Client <span class="text-gradient">Testimonials</span></h2>
+              <p class="text-gray-600 max-w-3xl mx-auto">Hear what our clients have to say about their experience with our brand identity services.</p>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+              <!-- Testimonial 1 -->
+              <div class="bg-white rounded-xl shadow-lg p-8 testimonial-card">
+                  <div class="flex items-center mb-6">
+                      <div class="w-16 h-16 rounded-full bg-primary text-white flex items-center justify-center text-2xl font-bold">
+                          R
+                      </div>
+                      <div class="ml-4">
+                          <h4 class="text-xl font-bold">Robert Chen</h4>
+                          <p class="text-gray-500">CEO, Nova Tech</p>
+                      </div>
+                  </div>
+                  <div class="mb-6 text-yellow-400">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                  </div>
+                  <p class="text-gray-600 italic">"YanzzDesign transformed our brand identity completely. The new logo and visual system perfectly capture our innovative spirit while maintaining professionalism. We've received countless compliments from clients and partners."</p>
+              </div>
+
+              <!-- Testimonial 2 -->
+              <div class="bg-white rounded-xl shadow-lg p-8 testimonial-card">
+                  <div class="flex items-center mb-6">
+                      <div class="w-16 h-16 rounded-full bg-secondary text-white flex items-center justify-center text-2xl font-bold">
+                          J
+                      </div>
+                      <div class="ml-4">
+                          <h4 class="text-xl font-bold">Jessica Martinez</h4>
+                          <p class="text-gray-500">Founder, Bloom Beauty</p>
+                      </div>
+                  </div>
+                  <div class="mb-6 text-yellow-400">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                  </div>
+                  <p class="text-gray-600 italic">"Working with YanzzDesign was a game-changer for our cosmetics brand. They created a cohesive visual identity that appeals perfectly to our target audience. Our sales have increased by 40% since the rebrand!"</p>
+              </div>
+
+              <!-- Testimonial 3 -->
+              <div class="bg-white rounded-xl shadow-lg p-8 testimonial-card">
+                  <div class="flex items-center mb-6">
+                      <div class="w-16 h-16 rounded-full bg-gradient text-white flex items-center justify-center text-2xl font-bold">
+                          M
+                      </div>
+                      <div class="ml-4">
+                          <h4 class="text-xl font-bold">Michael Thompson</h4>
+                          <p class="text-gray-500">Marketing Director, Cube Finance</p>
+                      </div>
+                  </div>
+                  <div class="mb-6 text-yellow-400">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star-half-alt"></i>
+                  </div>
+                  <p class="text-gray-600 italic">"The team at YanzzDesign understood our need to balance modern design with the trust and stability expected in financial services. The comprehensive brand guidelines have made it easy to maintain consistency across all our materials."</p>
+              </div>
+          </div>
+      </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section id="contact" class="py-20 bg-gradient">
+      <div class="container mx-auto px-4">
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+              <div>
+                  <h2 class="text-3xl md:text-4xl font-bold font-display text-white mb-6">Ready to Transform Your Brand Identity?</h2>
+                  <p class="text-white text-opacity-90 mb-8 text-lg">Fill out the form to start a conversation about your brand identity needs. We'll contact you within 24 hours to discuss your project in detail.</p>
+                  <div class="flex flex-col space-y-6">
+                      <div class="flex items-center">
+                          <div class="w-12 h-12 rounded-full bg-white bg-opacity-20 flex items-center justify-center text-white mr-4">
+                              <i class="fas fa-check"></i>
+                          </div>
+                          <span class="text-white">Strategic brand development</span>
+                      </div>
+                      <div class="flex items-center">
+                          <div class="w-12 h-12 rounded-full bg-white bg-opacity-20 flex items-center justify-center text-white mr-4">
+                              <i class="fas fa-check"></i>
+                          </div>
+                          <span class="text-white">Comprehensive brand guidelines</span>
+                      </div>
+                      <div class="flex items-center">
+                          <div class="w-12 h-12 rounded-full bg-white bg-opacity-20 flex items-center justify-center text-white mr-4">
+                              <i class="fas fa-check"></i>
+                          </div>
+                          <span class="text-white">Full ownership of all brand assets</span>
+                      </div>
+                  </div>
+              </div>
+
+              <div>
+                  <form class="bg-white p-8 rounded-xl shadow-xl">
+                      <h3 class="text-2xl font-bold mb-6">Get Started Today</h3>
+
+                      <div class="mb-6">
+                          <label for="name" class="block text-gray-700 mb-2">Your Name</label>
+                          <input type="text" id="name" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent" placeholder="Enter your name">
+                      </div>
+
+                      <div class="mb-6">
+                          <label for="email" class="block text-gray-700 mb-2">Email Address</label>
+                          <input type="email" id="email" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent" placeholder="Enter your email">
+                      </div>
+
+                      <div class="mb-6">
+                          <label for="company" class="block text-gray-700 mb-2">Company Name</label>
+                          <input type="text" id="company" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent" placeholder="Enter your company name">
+                      </div>
+
+                      <div class="mb-6">
+                          <label for="message" class="block text-gray-700 mb-2">Project Details</label>
+                          <textarea id="message" rows="4" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent" placeholder="Tell us about your brand and project requirements"></textarea>
+                      </div>
+
+                      <button type="submit" class="w-full bg-gradient text-white font-semibold py-3 px-6 rounded-lg shadow-lg hover:shadow-xl transition-all">
+                          Submit Request
+                      </button>
+                  </form>
+              </div>
+          </div>
+      </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section class="py-20 bg-white">
+      <div class="container mx-auto px-4">
+          <div class="text-center mb-16">
+              <h2 class="text-3xl md:text-4xl font-bold font-display mb-4">Frequently Asked <span class="text-gradient">Questions</span></h2>
+              <p class="text-gray-600 max-w-3xl mx-auto">Find answers to common questions about our brand identity services.</p>
+          </div>
+
+          <div class="max-w-3xl mx-auto">
+              <!-- FAQ Item 1 -->
+              <div class="mb-6">
+                  <button class="flex justify-between items-center w-full bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-lg transition-all" onclick="toggleFAQ(this)">
+                      <span class="text-lg font-semibold">How long does the brand identity process take?</span>
+                      <i class="fas fa-plus text-primary"></i>
+                  </button>
+                  <div class="bg-gray-50 px-6 pb-6 rounded-b-lg shadow-md hidden faq-answer">
+                      <p class="text-gray-600 pt-4">A comprehensive brand identity project typically takes 4-6 weeks from start to finish. This timeline allows for thorough research, strategic development, multiple design iterations, and refinement based on your feedback. For more complex projects or those requiring extensive applications, the timeline may be longer.</p>
+                  </div>
+              </div>
+
+              <!-- FAQ Item 2 -->
+              <div class="mb-6">
+                  <button class="flex justify-between items-center w-full bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-lg transition-all" onclick="toggleFAQ(this)">
+                      <span class="text-lg font-semibold">What's the difference between a logo and a brand identity?</span>
+                      <i class="fas fa-plus text-primary"></i>
+                  </button>
+                  <div class="bg-gray-50 px-6 pb-6 rounded-b-lg shadow-md hidden faq-answer">
+                      <p class="text-gray-600 pt-4">A logo is just one element of your brand identity. While a logo is a visual mark that identifies your business, a brand identity is a comprehensive system that includes your logo, color palette, typography, imagery style, graphic elements, and guidelines for how these elements work together. A brand identity creates a cohesive visual language that communicates your brand's personality and values across all touchpoints.</p>
+                  </div>
+              </div>
+
+              <!-- FAQ Item 3 -->
+              <div class="mb-6">
+                  <button class="flex justify-between items-center w-full bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-lg transition-all" onclick="toggleFAQ(this)">
+                      <span class="text-lg font-semibold">Do I own the copyright to my brand identity?</span>
+                      <i class="fas fa-plus text-primary"></i>
+                  </button>
+                  <div class="bg-gray-50 px-6 pb-6 rounded-b-lg shadow-md hidden faq-answer">
+                      <p class="text-gray-600 pt-4">Yes, absolutely. Once the final payment is made, you receive 100% ownership and copyright of all brand identity elements we create for you. You are free to use them however you wish, register them as trademarks, and protect them legally as your intellectual property.</p>
+                  </div>
+              </div>
+
+              <!-- FAQ Item 4 -->
+              <div class="mb-6">
+                  <button class="flex justify-between items-center w-full bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-lg transition-all" onclick="toggleFAQ(this)">
+                      <span class="text-lg font-semibold">What file formats will I receive?</span>
+                      <i class="fas fa-plus text-primary"></i>
+                  </button>
+                  <div class="bg-gray-50 px-6 pb-6 rounded-b-lg shadow-md hidden faq-answer">
+                      <p class="text-gray-600 pt-4">You'll receive all the file formats you need for both print and digital applications. This includes vector files (AI, EPS, PDF) for scalable use in any size, as well as raster files (JPG, PNG) for digital applications. We also provide specific formats optimized for web, social media, and various print applications to ensure your brand looks perfect everywhere.</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white py-12">
+      <div class="container mx-auto px-4">
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
+              <div>
+                  <a href="#" class="text-2xl font-bold font-display mb-4 inline-block">
+                      Yanzz<span class="text-primary">Design</span>
+                  </a>
+                  <p class="text-gray-400 mb-6">We create distinctive, strategic brand identities that help businesses connect with their audience and stand out in the marketplace.</p>
+                  <div class="flex space-x-4">
+                      <a href="#" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-primary transition-colors">
+                          <i class="fab fa-facebook-f"></i>
+                      </a>
+                      <a href="#" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-primary transition-colors">
+                          <i class="fab fa-twitter"></i>
+                      </a>
+                      <a href="#" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-primary transition-colors">
+                          <i class="fab fa-instagram"></i>
+                      </a>
+                      <a href="#" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-primary transition-colors">
+                          <i class="fab fa-behance"></i>
+                      </a>
+                  </div>
+              </div>
+
+              <div>
+                  <h4 class="text-lg font-bold mb-4">Services</h4>
+                  <ul class="space-y-2">
+                      <li><a href="#" class="text-gray-400 hover:text-primary transition-colors">Brand Identity</a></li>
+                      <li><a href="#" class="text-gray-400 hover:text-primary transition-colors">Logo Design</a></li>
+                      <li><a href="#" class="text-gray-400 hover:text-primary transition-colors">Brand Strategy</a></li>
+                      <li><a href="#" class="text-gray-400 hover:text-primary transition-colors">Web Design</a></li>
+                      <li><a href="#" class="text-gray-400 hover:text-primary transition-colors">Packaging Design</a></li>
+                  </ul>
+              </div>
+
+              <div>
+                  <h4 class="text-lg font-bold mb-4">Quick Links</h4>
+                  <ul class="space-y-2">
+                      <li><a href="#" class="text-gray-400 hover:text-primary transition-colors">Home</a></li>
+                      <li><a href="#about" class="text-gray-400 hover:text-primary transition-colors">About</a></li>
+                      <li><a href="#portfolio" class="text-gray-400 hover:text-primary transition-colors">Portfolio</a></li>
+                      <li><a href="#testimonials" class="text-gray-400 hover:text-primary transition-colors">Testimonials</a></li>
+                      <li><a href="#contact" class="text-gray-400 hover:text-primary transition-colors">Contact</a></li>
+                  </ul>
+              </div>
+
+              <div>
+                  <h4 class="text-lg font-bold mb-4">Contact Us</h4>
+                  <ul class="space-y-4">
+                      <li class="flex items-start">
+                          <i class="fas fa-map-marker-alt mt-1 mr-3 text-primary"></i>
+                          <span class="text-gray-400">123 Design Street, Creative City, 10001</span>
+                      </li>
+                      <li class="flex items-start">
+                          <i class="fas fa-phone-alt mt-1 mr-3 text-primary"></i>
+                          <span class="text-gray-400">+1 (555) 123-4567</span>
+                      </li>
+                      <li class="flex items-start">
+                          <i class="fas fa-envelope mt-1 mr-3 text-primary"></i>
+                          <span class="text-gray-400">hello@yanzzdesign.com</span>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+
+          <div class="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center">
+              <p class="text-gray-400 text-sm mb-4 md:mb-0">© 2023 YanzzDesign. All Rights Reserved.</p>
+              <div class="flex space-x-6">
+                  <a href="#" class="text-gray-400 hover:text-primary transition-colors text-sm">Privacy Policy</a>
+                  <a href="#" class="text-gray-400 hover:text-primary transition-colors text-sm">Terms of Service</a>
+                  <a href="#" class="text-gray-400 hover:text-primary transition-colors text-sm">Sitemap</a>
+              </div>
+          </div>
+      </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <a href="#" id="back-to-top" class="fixed bottom-8 right-8 bg-primary text-white w-12 h-12 rounded-full flex items-center justify-center shadow-lg hover:bg-secondary transition-colors hidden">
+      <i class="fas fa-arrow-up"></i>
+  </a>
+
+  <script>
+      // Mobile Menu Toggle
+      const menuToggle = document.getElementById('menu-toggle');
+      const mobileMenu = document.getElementById('mobile-menu');
+
+      menuToggle.addEventListener('click', function() {
+          mobileMenu.classList.toggle('hidden');
+      });
+
+      // FAQ Toggle
+      function toggleFAQ(element) {
+          const answer = element.nextElementSibling;
+          const icon = element.querySelector('i');
+
+          answer.classList.toggle('hidden');
+
+          if (answer.classList.contains('hidden')) {
+              icon.classList.remove('fa-minus');
+              icon.classList.add('fa-plus');
+          } else {
+              icon.classList.remove('fa-plus');
+              icon.classList.add('fa-minus');
+          }
+      }
+
+      // Back to Top Button
+      const backToTopButton = document.getElementById('back-to-top');
+
+      window.addEventListener('scroll', function() {
+          if (window.pageYOffset > 300) {
+              backToTopButton.classList.remove('hidden');
+          } else {
+              backToTopButton.classList.add('hidden');
+          }
+      });
+
+      backToTopButton.addEventListener('click', function(e) {
+          e.preventDefault();
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+
+      // Smooth scrolling for anchor links
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+          anchor.addEventListener('click', function(e) {
+              e.preventDefault();
+
+              if (this.getAttribute('href') === '#') return;
+
+              const target = document.querySelector(this.getAttribute('href'));
+              if (target) {
+                  target.scrollIntoView({
+                      behavior: 'smooth'
+                  });
+
+                  // Close mobile menu if open
+                  if (!mobileMenu.classList.contains('hidden')) {
+                      mobileMenu.classList.add('hidden');
+                  }
+              }
+          });
+      });
+  </script>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'94b73bf247adfe84',t:'MTc0OTIwNTgyNC4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script><iframe height="1" width="1" style="position: absolute; top: 0px; left: 0px; border: none; visibility: hidden;"></iframe>
+
+</body></html>
