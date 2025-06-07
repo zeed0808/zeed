@@ -1,27 +1,32 @@
-# HTML, CSS, JS (Auto Refresh)
+# Yazid Biografi 🌟
 
-This template is a starter for building a website with HTML, CSS and JS, powered by [Vite](https://vitejs.dev/). HTML provides the basic structure, CSS controls formatting, and JavaScript controls the behavior of different elements.
+Selamat datang di proyek **Yazid Biografi**!  
+Website ini saya buat sebagai media untuk menyimpan dan mempublikasikan perjalanan saya selama berkarya di dunia teknologi dan kreatif.
 
-Hit run to see this project in action. It will auto-refresh as you edit the HTML, CSS and JS files.
+## ✨ Teknologi yang Digunakan
 
-## Disable Auto Refresh
+- **HTML** – Sebagai struktur dasar halaman.
+- **Vue.js** – Framework JavaScript progresif untuk membangun antarmuka pengguna.
+- **Tailwind CSS** – Utility-first CSS framework yang memberikan tampilan modern dan responsif dengan cepat.
+- **Vite** – Build tool modern yang cepat dan ringan untuk proyek frontend berbasis Vue.
 
-If you find the auto refresh getting in your way, go to [vite.config.js](./vite.config.js) and update it set `hmr` to false to disable hot module reloading (HMR). The full config will look like this:
+## ⚠️ Penggunaan
+
+Website ini dapat dijadikan referensi atau portofolio pribadi, namun:
+
+- **JANGAN** memperjualbelikan script atau hasil karya dari website ini.
+- Gunakan dengan bijak untuk pembelajaran dan inspirasi.
+- Pelanggaran terhadap ketentuan ini dapat saya tindak sesuai hukum yang berlaku.
+
+## 🚫 Nonaktifkan Auto Refresh (HMR)
+
+Jika Anda merasa auto-refresh mengganggu selama pengembangan, Anda dapat mematikan fitur Hot Module Reloading (HMR) dengan mengubah konfigurasi pada `vite.config.js` seperti berikut:
 
 ```js
 export default defineConfig({
   plugins: [],
   server: {
     host: '0.0.0.0',
-    hmr: false, // Change this line to `false` disable auto-refreshing.
+    hmr: false, // Menonaktifkan auto-refresh
   }
 })
-```
-
-## Packages
-
-Because this template uses Vite to build your code, you can add install and use npm packages. Simple open the Packager tool to search and manage your packages.
-
-## Learn More
-
-Check out [the vite docs](https://vitejs.dev) to learn more about configuring a frontend application.
